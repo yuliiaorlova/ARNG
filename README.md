@@ -12,7 +12,7 @@ The computational methodology is split into 4 main parts, which have to be conse
 
 - main_Kinetic_Model.m - this part of the code takes a reaction network as an input and automatically transforms it into a kinetic model. Kinetic model is a system of differential equations describing the temporal changes in concentration of all the generated molecular species. The ODEs are solved numerically and the result can be visualized in various way depending on the needs of the user. 
 
-Some terminology:
+Useful terminology:
 
 - Molecules are represented as molecular graphs and defined by their adjacency matrix, which captures the connectivity between atoms, and list of labels, which defines a chemical element of the atom. 
 
