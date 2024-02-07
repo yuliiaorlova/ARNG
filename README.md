@@ -1,4 +1,5 @@
 # ARNG
+
 Automated Reaction Network Generation (ARNG) methodology is designed to automatize application of chemical reactions to the molecules. Current sample of code automatizes reconstruction of the reaction network of ethyl linoleate polymerizing at the room temperature. The reaction network is further transformed into a kinetic model - system of ODEs describing how the concentration of molecular species changes in time. 
 
 INPUT: reactant molecules (defined as molecular graphs) that are needed to start the reaction process, library of reaction rules for a given reaction mechanism, initial concentrations of the starting reactant molecules, time 
@@ -23,4 +24,9 @@ Useful terminology:
 - By repeatedly applying reaction rules to the molecular graphs, we are able to systematically uncover the reaction network of the chemical system.
 
 - Reaction network is a bipartite graph that describes interactions between molecules. 
+
+Realted publications:
+
+- Automated reaction generation for polymer networks, Y. Orlova, I. Kryven, P.D. Iedema,Computers and Chemical Engineering, 2018, 112, 37–47, doi:10.1016/j.compchemeng.2018.01.022 
+
 
